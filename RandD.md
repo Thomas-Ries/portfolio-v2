@@ -159,3 +159,18 @@ module.exports = {
     plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 };
 ```
+
+___
+
+## Notes
+Qui suis-je ?
+-> Reprenfre intro cv
+
+Compétences
+-> Développeent web
+=> 
+
+-> Travail en équipe
+=> Outil de versionning GIT / GITHUB / GITLAB
+=> Travail de manière transverse, à l'écoute des problématiques créas et chefferie de proje
+
