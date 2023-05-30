@@ -14,6 +14,7 @@ import TheWelcome from "./components/TheWelcome.vue";
     />
 
     <div class="wrapper">
+      <router-view/>
       <HelloWorld msg="You did it!" />
     </div>
   </header>

@@ -164,13 +164,15 @@ ___
 
 ## Notes
 Qui suis-je ?
--> Reprenfre intro cv
+-> Reprendre intro cv
 
 Compétences
--> Développeent web
-=> 
+-> Développement web
+=> HTML / CSS / Javascript ES6
+=> Framework: Vue.js (2 & 3) / Pinia / VueX / Quasar / Inertia / Blade / Tailwind / Bootstrap / Grapes.js
+=> Notions : Php / Laravel / React / React Native / Node.js / Express / SQL / Wordpress / Figma
 
 -> Travail en équipe
 => Outil de versionning GIT / GITHUB / GITLAB
-=> Travail de manière transverse, à l'écoute des problématiques créas et chefferie de proje
+=> Travail de manière transverse, à l'écoute des problématiques créas et chefferie de projet
 
