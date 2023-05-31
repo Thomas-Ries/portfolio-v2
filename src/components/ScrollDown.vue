@@ -8,7 +8,7 @@
 .scroll-down {
     height: 5rem;
     Width: 3rem;
-    border: 3px solid #854621;
+    border: 3px solid #FFF;
     position: absolute;
     transform: translate(-50%);
     top: 90%;
@@ -22,7 +22,7 @@
     position: absolute;
     top: 45%;
     left: 50%;
-    border: 2px solid #854621;
+    border: 2px solid #FFF;
     height: 1rem;
     width: 1rem;
     transform: translate(-50%, -100%) rotate(45deg);
