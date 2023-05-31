@@ -26,6 +26,15 @@
           Accueil
         </router-link>
         <router-link
+        :to="{
+          name: 'Home',
+          hash: '#about'
+        }"
+        class="mt-1 block px-2 py-1 text-dark rounded sm:mt-0 sm:ml-2 cool-hover">
+          A Propos
+        </router-link>
+
+        <router-link
         to="/experiences"
         class="mt-1 block px-2 py-1 text-dark rounded sm:mt-0 sm:ml-2 cool-hover">
           Experiences
@@ -49,29 +58,3 @@ import { ref } from "vue";
 
 let isNavbarOpen = ref(false);
 </script>
-
-<style>
-.cool-hover {
-    text-decoration: none;
-    position: relative;
-}
-.cool-hover {
-    cursor: pointer;
-}
-.cool-hover::after {
-    content:"";
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 100%;
-    height: 2px;
-    background: #CF8E55;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 250ms ease-in;
-}
-.cool-hover:hover::after {
-    transform: scaleX(1);
-    transform-origin: left;
-}
-</style>

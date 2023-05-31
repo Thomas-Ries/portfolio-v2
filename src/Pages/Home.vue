@@ -14,6 +14,7 @@
             md:px-12 md:flex-row md:justify-center">
 
                 <img
+                id="about"
                 class="rounded-2xl h-80 w-80"
                 src="../assets/img/landingPage/photo.jpg" alt="profil picture">
 
@@ -32,11 +33,21 @@
                     </p>
                     
                     <p
-                    class="py-8 px-4
+                    class="py-4 px-4
                     md:px-0 md:w-96">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet eius voluptatem, exercitationem ea iusto maiores rerum dicta nesciunt culpa maxime iure aperiam sed fugit commodi fugiat recusandae. Voluptate, cumque reiciendis!
-                    Autem ea dolore facere iste consequuntur in illo vel asperiores, animi, placeat facilis commodi quae quia ipsa magni natus debitis quidem suscipit? Similique laborum quod soluta. Blanditiis, nemo. Qui, quia!
+                    D’expériences riches et variées, je suis un développeur innovant, curieux et en constante évolution.
+                    J’aime concevoir et maintenir des sites web responsive à l’aide de frameworks modernes tout en
+                    poussant mes connaissances à s’étendre. Passionné d’UI, d’UX, de design et de photographies, je
+                    crée des expériences utilisateurs uniques et immersives.
                     </p>
+
+                    <div
+                    class="flex flex-col items-center
+                    md:flex-row">
+                        <DownloadCv /> 
+                        <ContactMe
+                        class="md:ml-6 mt-4 md:mt-0"/> 
+                    </div>
 
                 </div>
 
@@ -46,4 +57,6 @@
     
 <script setup>
 import ScrollDown from '../components/ScrollDown.vue';
+import DownloadCv from '../components/button/DownloadCv.vue';
+import ContactMe from '../components/button/ContactMe.vue'
 </script>
