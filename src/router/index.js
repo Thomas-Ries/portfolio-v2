@@ -7,9 +7,9 @@ const router = createRouter({
 
     scrollBehavior: function(to, from, savedPosition) {
         if (to.hash) {
-            // return {selector: to.hash}
-            //Or for Vue 3:
-            return {el: to.hash}
+            return {
+                el: to.hash,
+                behavior: 'smooth'}
         } else {
             return { x: 0, y: 0 }
         }
