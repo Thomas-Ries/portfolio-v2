@@ -1,5 +1,5 @@
 <template>
-    <button class="rounded-xl group relative h-12 w-50 border border-black bg-black hover:bg-white px-4 py-2 transition-all duration-[550ms] ease-out">
+    <button class="group relative h-12 w-50 border border-black bg-black hover:bg-white px-4 py-2 transition-all duration-[550ms] ease-out">
         <a
           href="mailto:thomasries.dev@gmail.com"
           class="flex items-center mr-4 text-white group-hover:text-black">

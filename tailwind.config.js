@@ -10,11 +10,14 @@ module.exports = {
         'secondary'   : '',
         'tertiary'    : '',
         'link'        : '',
-        'dark'       : '#000',
+        'dark'        : '#000',
 
         // Backgrounds
-        'primary-bg'  : '',
-        'bamboo'   : '#CF8E55'
+        'charcoal'    : '#383230',
+        'bamboo'      : '#CF8E55',
+        'sandalwood'  : '#854621',
+        'clay'        : '#BFAEA4',
+        'gunmetal'    : '#32435F'
 
       }
     },
