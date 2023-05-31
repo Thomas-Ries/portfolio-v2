@@ -11,7 +11,7 @@
 
         <section
         class="flex flex-col items-center py-24
-            md:px-12 md:flex-row md:justify-center">
+        md:px-12 md:flex-row md:justify-center">
 
                 <img
                 id="about"
