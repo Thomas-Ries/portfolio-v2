@@ -61,7 +61,11 @@
                     class="flex flex-col items-center
                     md:flex-row">
                         <DownloadCv /> 
-                        <ContactMe
+                        <PrimaryBlackButton
+                        href="mailto:thomasries.dev@gmail.com"
+                        content="Me contacter"
+                        svgMail="true"
+                        childClass="hover:bg-grey"
                         class="md:ml-6 mt-4 md:mt-0"/> 
                     </div>
 
@@ -155,7 +159,7 @@ import { useMotion } from '@vueuse/motion';
 
 import ScrollDown from '../components/ScrollDown.vue';
 import DownloadCv from '../components/button/DownloadCv.vue';
-import ContactMe from '../components/button/ContactMe.vue';
+import PrimaryBlackButton from '../components/button/PrimaryBlackButton.vue';
 import CompetencesCard from "../components/competences/competencesCard.vue";
 import TechCompetences from "../components/competences/TechCompetences.vue";
 

@@ -7,5 +7,5 @@ import App from "./App.vue";
 import './index.css'
 
 const app = createApp(App)
-.use(router,MotionPlugin, createPinia())
+.use(router,MotionPlugin,  createPinia())
 .mount('#app');
