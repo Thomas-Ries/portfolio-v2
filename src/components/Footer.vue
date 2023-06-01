@@ -51,7 +51,7 @@
                 <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
                     <li>
                         <router-link
-                        to="/"
+                        to="/mentions-legales"
                         class="text-gray-700 transition hover:text-gray-700/75 cool-hover">
                             Mentions Légales
                         </router-link>
