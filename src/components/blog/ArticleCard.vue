@@ -9,7 +9,7 @@
     <div 
     v-for="item in mediumData" :key="item.id"
     class="max-w-sm w-80 flex flex-col mx-auto
-    lg:max-w-full lg:flex
+    lg:max-w-full lg:flex lg:w-96
     border-gray-200 border-b-2 last:border-0 py-12">
 
         <div class="flex items-center">
@@ -27,7 +27,7 @@
         </div>
 
         <div class="flex items-start justify-between mt-2">
-            <div class="flex flex-col">
+            <div class="flex flex-col lg:mr-4">
                 <a
                 :href="item.link"
                 target="_blank"

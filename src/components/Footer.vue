@@ -70,9 +70,9 @@
 
         </div>
 
-        <p class="mx-auto mt-1 max-w-md text-center leading-relaxed text-gray-500">
+        <p class="mx-auto mt-1 max-w-md text-center leading-relaxed text-gray-500 pb-3">
                © Site réalisé par Thomas Ries - 2023
-            </p>
+        </p>
     </footer>
 </template>
 

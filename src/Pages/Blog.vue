@@ -8,7 +8,7 @@
             class="nameHeader flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
                 <h1 
                 class="text-white text-5xl text-center">
-                    <span class="text-bamboo text-5xl font-bold">B</span>log
+                    <span class="text-charcoal text-8xl font-bold">B</span>log
                 </h1>
             </div>
         </section>
@@ -61,7 +61,7 @@
                         <PrimaryBlackButton
                         href="mailto:thomasries.dev@gmail.com"
                         content="Me contacter"
-                        svgMail="true"
+                        :svgMail=true
                         childClass="hover:bg-white"
                         class="md:ml-6 mt-4 md:mt-0"/> 
                     </div>

@@ -1,7 +1,7 @@
 <template>
   <header class="z-10 drop-shadow-xl bg-white sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3 fixed w-full">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-      <div>        
+      <div>
         <router-link to="/" >
           <h1 class="text-dark text-xl font-bold">
           <span class="text-bamboo text-2xl font-bold">T</span>homas <span class="text-bamboo text-2xl font-bold">R</span>ies</h1>
@@ -18,6 +18,7 @@
         </button>
       </div>
     </div>
+    
     <nav
     :class="isNavbarOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
         <router-link

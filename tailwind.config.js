@@ -20,10 +20,6 @@ module.exports = {
         // Backgrounds
         'charcoal'    : '#383230',
         'bamboo'      : '#CF8E55',
-        'sandalwood'  : '#854621',
-        'clay'        : '#BFAEA4',
-        'gunmetal'    : '#32435F',
-        'cream'       : '#E5D9CE',
         'grey'        : '#EDEDED',
         'dark'        : '#0F0F0F'
 
