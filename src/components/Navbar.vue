@@ -73,5 +73,4 @@
 import { ref } from "vue";
 
 let isNavbarOpen = ref(false);
-let isOptionsExpanded= ref(false);
 </script>

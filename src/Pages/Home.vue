@@ -25,7 +25,7 @@
 
         <section
         id="about"
-        class="flex flex-col items-center py-24 bg-grey
+        class="flex flex-col items-center py-48 bg-grey
         md:px-12 md:flex-row md:justify-center">
 
                 <img
@@ -72,74 +72,77 @@
         <section
         id="competences"
         class="flex flex-col items-center py-24 bg-dark 
-        md:px-12 md:justify-center">
+        md:px-12 md:py-44 md:justify-center">
 
-        <div
-        class="flex flex-col
-        md:items-center">
-            <h2
-            class="font-bold text-white text-3xl text-center tracking-wider	
-            md:text-4xl">
-                MES COMPETENCES GENERALES
-            </h2>
+            <div
+            class="flex flex-col
+            md:items-center">
+                <h2
+                class="font-bold text-white text-3xl text-center tracking-wider	
+                md:text-4xl">
+                    MES COMPETENCES GENERALES
+                </h2>
 
-            <p
-            class="text-white font-light text-center px-4 mt-2
-            md:w-3/5">
-                Curieux des nouvelles tendances et technologies, mes compétences évoluent avec mes connaissances
-            </p>
-        </div>
+                <p
+                class="text-white font-light text-center px-4 mt-2
+                md:w-3/5">
+                    Curieux des nouvelles tendances et technologies, mes compétences évoluent avec mes connaissances
+                </p>
+            </div>
 
-        <div
-        class="flex flex-col items-center
-        xl:flex-row xl:mt-12">
-            <CompetencesCard
-            class="xl:mr-8"
-            title="UI UX Design"
-            content="Passionné par l'UI et l'UX, j'effectue une veille régulière sur ces sujets afin de pouvoir être force de propositions et comprendre ces enjeux déterminants dans la conception de solutions web." >
-                <img
-                class="object-cover h-64 w-full"
-                src="../assets/img/competences/ui-ux-design.jpg" alt="">
-            </CompetencesCard>
+            <div
+            ref="targetGeneralCompetences"
+            class="flex flex-col items-center
+            xl:flex-row xl:mt-20">
+                <CompetencesCard
+                class="xl:mr-8"
+                title="UI UX Design"
+                content="Passionné par l'UI et l'UX, j'effectue une veille régulière sur ces sujets afin de pouvoir être force de propositions et comprendre ces enjeux déterminants dans la conception de solutions web." >
+                    <img
+                    class="object-cover h-64 w-full"
+                    src="../assets/img/competences/ui-ux-design.jpg" alt="">
+                </CompetencesCard>
 
-            <CompetencesCard
-            class="xl:mr-8"
-            title="Développement Web"
-            content="Je me suis engagé pleinement dans l'univers du développement web afin de pouvoir penser, créer et développer des sites orientés design, fonctionnabilités et accessibilités." >
-                <img
-                class="object-cover h-64 w-full"
-                src="../assets/img/competences/web-dev.jpg" alt="developpement web">
-            </CompetencesCard>
+                <CompetencesCard
+                class="xl:mr-8"
+                title="Développement Web"
+                content="Je me suis engagé pleinement dans l'univers du développement web afin de pouvoir penser, créer et développer des sites orientés design, fonctionnabilités et accessibilités." >
+                    <img
+                    class="object-cover h-64 w-full"
+                    src="../assets/img/competences/web-dev.jpg" alt="developpement web">
+                </CompetencesCard>
 
-            <CompetencesCard
-            title="Ventes & Négociations"
-            content="Fort de nombreuses années d'expériences en ventes et en négociations, j'ai acquis de solides compétences dans ce domaine me permettant d'être rapidement autonome." >
-                <img
-                class="object-cover h-64 w-full"
-                src="../assets/img/competences/negociation.jpg" alt="ventes et négociations">
-            </CompetencesCard>
+                <CompetencesCard
+                title="Ventes & Négociations"
+                content="Fort de nombreuses années d'expériences en ventes et en négociations, j'ai acquis de solides compétences dans ce domaine me permettant d'être rapidement autonome." >
+                    <img
+                    class="object-cover h-64 w-full"
+                    src="../assets/img/competences/negociation.jpg" alt="ventes et négociations">
+                </CompetencesCard>
 
-        </div>
+            </div>
 
-        <div
-        class="flex flex-col mt-20
-        md:items-center md:mt-32">
-            <h2
-            class="font-bold text-white text-3xl text-center tracking-wider	
-            md:text-4xl">
-                MES COMPETENCES TECHNIQUES
-            </h2>
+            <div
+            class="flex flex-col mt-20
+            md:items-center md:mt-48">
+                <h2
+                class="font-bold text-white text-3xl text-center tracking-wider	
+                md:text-4xl">
+                    MES COMPETENCES TECHNIQUES
+                </h2>
 
-            <p
-            class="text-white font-light text-center px-4 mt-2
-            md:w-3/5">
-                En tant que Développeur, je suis ammené à travailler avec certains outils et languages sur lesquels j'acroît mes compétences au quotidien.
-            </p>
-        </div>
+                <p
+                class="text-white font-light text-center px-4 mt-2
+                md:w-3/5">
+                    En tant que Développeur, je suis ammené à travailler avec certains outils et languages sur lesquels j'accroîs mes compétences au quotidien.
+                </p>
+            </div>
 
-        <div class="flex items-center mt-8">
-            <TechCompetences/>
-        </div>
+            <div
+            ref="targetTechCompetences"
+            class="flex items-center mt-8">
+                <TechCompetences/>
+            </div>
 
         </section>
 
@@ -165,6 +168,9 @@ onMounted(() => {
 });
 
 const targetImage = ref();
+const targetGeneralCompetences = ref();
+const targetTechCompetences = ref();
+
 useMotion(targetImage, {
     initial: {
         opacity: 0,
@@ -174,10 +180,42 @@ useMotion(targetImage, {
         opacity: 1,
         y: 0,
         transition: {
-            duration: 600,
+            duration: 800,
             type: 'keyframes',
             ease: 'easeIn',
         },
     }
-})
+});
+
+useMotion(targetGeneralCompetences, {
+    initial: {
+        opacity: 0,
+        y: 100,
+    },
+    visibleOnce: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 800,
+            type: 'keyframes',
+            ease: 'easeIn',
+        },
+    }
+});
+
+useMotion(targetTechCompetences, {
+    initial: {
+        opacity: 0,
+        y: 100,
+    },
+    visibleOnce: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 800,
+            type: 'keyframes',
+            ease: 'easeIn',
+        },
+    }
+});
 </script>
