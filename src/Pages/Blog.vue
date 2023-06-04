@@ -34,7 +34,7 @@
             <ArticleCard />
         </div>
 
-        <aside class="hidden xl:block xl:inset-y-0 xl:right-32 xl:top-[70%] xl:w-96 xl:absolute xl:h-screen xl:border-gray-100 xl:border-l-2 pl-8">
+        <aside class="asideFollow hidden right-14 xl:block xl:inset-y-0 2xl:right-32 xl:top-[70%] xl:w-96 xl:absolute xl:h-screen xl:border-gray-100 xl:border-l-2 pl-8">
             <div class="sticky top-20">
                 <h2 class="text-2xl text-center"> Me suivre sur les réseaux</h2>
                 <p
@@ -73,8 +73,20 @@
 </template>
     
 <script setup>
+import gsap from "gsap";
+import { onMounted } from "vue";
+
 import ArticleCard from '../components/blog/ArticleCard.vue';
 import SocialBar from '../components/socials/SocialBar.vue';
 import PrimaryBlackButton from '../components/button/PrimaryBlackButton.vue';
+
+onMounted(() => {
+    gsap.from(".asideFollow", {
+        opacity: 0, 
+        x: 100, 
+        duration: 1.5,
+        delay: 2,
+    });
+});
 
 </script>

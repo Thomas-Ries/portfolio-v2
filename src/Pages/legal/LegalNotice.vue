@@ -245,6 +245,8 @@
             <li class="list-disc ml-4"> <a class="underline" href="https://unsplash.com/fr/photos/1H1LBKvD7ew?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Photo de Carrie Allen</a></li>
             <li class="list-disc ml-4"> <a class="underline" href="https://unsplash.com/fr/photos/cckf4TsHAuw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Photo de Andrew Neel</a></li>
             <li class="list-disc ml-4"> <a class="underline" href="https://unsplash.com/fr/photos/mdADGzyXCVE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Photo de Kelly Sikkema</a></li>
+            <li class="list-disc ml-4"> <a class="underline" href="https://unsplash.com/fr/photos/QckxruozjRg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Photo de Annie Spratt</a></li>
+            <li class="list-disc ml-4"> <a class="underline" href="https://unsplash.com/fr/photos/qOvxHjOrx4k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Photo de Alex Lion</a></li>
         </ul>
     </section>
 

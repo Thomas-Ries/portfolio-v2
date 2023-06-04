@@ -22,7 +22,7 @@
             </p>
                 <span> · </span>
             <p class="text-sm text-gray-500 flex items-center ml-1">
-                {{ publishDateFormated }}
+                {{ moment(item.pubDate).startOf('hour').fromNow() }}
             </p>
         </div>
 
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <img
-            class="object-cover h-20 w-24"
+            class="object-cover h-24 w-24"
             :src="item.thumbnail"
             :alt="item.title"/>
         </div>
@@ -64,26 +64,23 @@
                 Lire l'article
           </a>
         </button>
-        
-        <!-- <hr
-        class="border-1 border-grey-500 my-12" /> -->
 
     </div>
 </template>
 
 <script setup>
 import { ref } from 'vue';
+import { momentFr } from '../../composables/moment/momentFr';
 import RotateLoader from '../../components/loader/RotateLoader.vue';
-
 
 import axios from 'axios';
 import moment from 'moment';
-import 'moment/locale/fr';
+
+momentFr();
+moment.locale('fr');
 
 const loading = ref(true);
-
 let mediumData = ref([]);
-let publishDateFormated = moment(mediumData.pubDate).startOf('hour').fromNow(); ;
 
 axios
 .get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@thomasries')

@@ -2,7 +2,7 @@
     <button class="group relative h-12 w-50 border border-black hover:bg-black px-4 py-2 transition-all duration-[550ms] ease-out">
             <a
             download
-            href="../../../public/cv/"
+            href="../../../public/cv/CV-Thomas_Ries.pdf"
             class="relative text-black group-hover:text-white flex items-center px-2">
             <svg
             class="w-6 h-6 mr-2"

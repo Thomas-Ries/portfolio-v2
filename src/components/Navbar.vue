@@ -51,6 +51,12 @@
         </router-link>
 
         <router-link
+        to="/projets"
+        class="mt-1 block px-2 py-1 text-dark rounded sm:mt-0 sm:ml-2 cool-hover">
+          Projets
+        </router-link>
+
+        <router-link
         to="/blog"
         class="mt-1 block px-2 py-1 text-dark rounded sm:mt-0 sm:ml-2 cool-hover">
           Blog

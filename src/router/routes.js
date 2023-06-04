@@ -1,7 +1,8 @@
 import Home from '../Pages/Home.vue';
 import Experiences from '../Pages/Experiences.vue';
 import Blog from '../Pages/Blog.vue';
-import LegalNotice from '../Pages/legal/LegalNotice.vue'
+import LegalNotice from '../Pages/legal/LegalNotice.vue';
+import Projects from '../Pages/Projects.vue'
 
 const routes = [
     {
@@ -15,6 +16,11 @@ const routes = [
         component: Experiences,
     },
     {
+        path: '/projets',
+        name: 'Projects',
+        component: Projects,
+    },
+    {
         path: '/blog',
         name: 'Blog',
         component: Blog,
@@ -24,6 +30,7 @@ const routes = [
         name: 'Mentions-Legales',
         component: LegalNotice,
     },
+
 ];
 
 export default routes;

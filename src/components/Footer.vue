@@ -32,6 +32,14 @@
 
                 <li>
                     <router-link
+                    to="/projets"
+                    class="text-gray-700 transition hover:text-gray-700/75 cool-hover">
+                        Projets
+                    </router-link>
+                </li>
+
+                <li>
+                    <router-link
                     to="/blog"
                     class="text-gray-700 transition hover:text-gray-700/75 cool-hover">
                         Blog
@@ -54,13 +62,6 @@
                         to="/mentions-legales"
                         class="text-gray-700 transition hover:text-gray-700/75 cool-hover">
                             Mentions Légales
-                        </router-link>
-                    </li>
-                    <li>
-                        <router-link
-                        to="/"
-                        class="text-gray-700 transition hover:text-gray-700/75 cool-hover">
-                            Politique de confidentialité
                         </router-link>
                     </li>
                 </ul>
