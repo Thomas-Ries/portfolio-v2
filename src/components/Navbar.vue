@@ -1,5 +1,8 @@
 <template>
-  <header class="z-10 drop-shadow-xl bg-white sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3 fixed w-full">
+  <header
+  ref="navRef"
+  :class="isNavbarOpen ? 'bg-white' : 'bg-transparent'"
+  class="z-10 drop-shadow-xl sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-6 fixed w-full">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
         <router-link to="/" >
@@ -25,23 +28,6 @@
         to="/"
         class="mt-1 block px-2 py-1 text-dark rounded sm:mt-0 sm:ml-2 cool-hover">
           Accueil
-        </router-link>
-        <router-link
-        :to="{
-          name: 'Home',
-          hash: '#about'
-        }"
-        class="mt-1 block px-2 py-1 text-dark rounded sm:mt-0 sm:ml-2 cool-hover">
-          A Propos
-        </router-link>
-
-        <router-link
-        :to="{
-          name: 'Home',
-          hash: '#competences'
-        }"
-        class="mt-1 block px-2 py-1 text-dark rounded sm:mt-0 sm:ml-2 cool-hover">
-          Compétences
         </router-link>
 
         <router-link
@@ -77,7 +63,20 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 let isNavbarOpen = ref(false);
+const navRef = ref(null);
+
+onMounted(() => {
+  window.addEventListener("scroll", () => {
+      var curr = window.pageYOffset;
+
+      if (curr >= 100) {
+          navRef.value.classList.add("bg-white");
+      }else{
+          navRef.value.classList.remove("bg-white");
+      }
+  });
+});
 </script>

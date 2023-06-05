@@ -1,18 +1,25 @@
 <template>
-    <footer class="bg-grey">
+    <footer class="bg-footer">
         <div class="mx-auto max-w-5xl px-4 pt-16 pb-8 sm:px-6 lg:px-8">
-            <div class="flex justify-center">
-                <router-link to="/" >
-                    <h2 class="text-dark text-xl font-bold">
-                <span class="text-bamboo text-2xl font-bold">T</span>homas <span class="text-bamboo text-2xl font-bold">R</span>ies</h2>
-                </router-link>
+
+        <div class="flex items-center justify-center">
+            <img
+            class="w-28 h-28 rounded-full object-cover mb-4"
+            src="../assets/img/landingPage/meAvatar.png" alt="avatar">
+
+            <div class="flex flex-col ml-6">
+                    <router-link to="/" >
+                        <h2 class="text-dark text-xl font-bold">
+                        <span class="text-bamboo text-2xl font-bold">T</span>homas <span class="text-bamboo text-2xl font-bold">R</span>ies</h2>
+                    </router-link>
+
+                <p class="mx-auto mt-1 max-w-md text-center leading-relaxed text-gray-500">
+                    Développeur Web Front-End
+                </p>
             </div>
+        </div>
 
-            <p class="mx-auto mt-1 max-w-md text-center leading-relaxed text-gray-500">
-                Développeur Web Front-End
-            </p>
-
-            <nav aria-label="Footer Nav" class="mt-12">
+        <nav aria-label="Footer Nav" class="mt-8">
             <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
                 <li>
                     <router-link
@@ -53,26 +60,19 @@
                     </a>
                 </li>
             </ul>
-            </nav>
-
-            <nav aria-label="Footer Nav" class="mt-4">
-                <ul class="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-                    <li>
-                        <router-link
-                        to="/mentions-legales"
-                        class="text-gray-700 transition hover:text-gray-700/75 cool-hover">
-                            Mentions Légales
-                        </router-link>
-                    </li>
-                </ul>
-            </nav>
+        </nav>
 
             <SocialBar />
 
         </div>
 
         <p class="mx-auto mt-1 max-w-md text-center leading-relaxed text-gray-500 pb-3">
-               © Site réalisé par Thomas Ries - 2023
+               © Site réalisé par Thomas Ries - 2023 /
+               <router-link
+                to="/mentions-legales"
+                class="text-gray-500 transition hover:text-gray-700/75 cool-hover">
+                    Mentions Légales
+                </router-link>
         </p>
     </footer>
 </template>

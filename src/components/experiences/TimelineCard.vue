@@ -11,7 +11,7 @@
             </p>
             <h4
             :class="textAlign"
-            class="mb-1 font-bold text-lg md:text-2xl">
+            class="mb-1 text-dark font-bold text-lg md:text-2xl">
                 {{ jobTitle }}
             </h4>
             <p
@@ -21,7 +21,7 @@
             </p>
             <p
             :class="textAlign"
-            class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+            class="text-sm md:text-base leading-snug text-dark text-opacity-100">
                     {{  content  }}
             </p>
         </div>

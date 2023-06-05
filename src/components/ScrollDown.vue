@@ -1,36 +1,26 @@
 <template>
-    <div class="scroll-down animate-bounce"></div>
+    <div class="flex justify-center items-center absolute bottom-3 text-white
+    lg:hidden">
+    <router-link
+        :to="{
+          name: 'Home',
+          hash: '#about'
+        }"
+        class="text-lg">
+            En savoir plus
+        </router-link>
+        <svg class="animate-bounce h-4 w-4 ml-2" fill="#FFFF" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+    </div>
+
+    <div class="hidden lg:flex justify-center items-center absolute bottom-2 right-4 text-dark">
+        <router-link
+        :to="{
+          name: 'Home',
+          hash: '#about'
+        }">
+            En savoir plus
+        </router-link>
+        <svg class="animate-bounce h-4 w-4 ml-2" fill="#000" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+    </div>
+
 </template>
-
-
-
-<style>
-.scroll-down {
-    height: 5rem;
-    Width: 3rem;
-    border: 3px solid #FFF;
-    position: absolute;
-    transform: translate(-50%);
-    top: 90%;
-    border-radius: 50px;
-    z-index: 26;    
-}
-
-.scroll-down::before,
-.scroll-down::after {
-    content: '';
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    border: 2px solid #FFF;
-    height: 1rem;
-    width: 1rem;
-    transform: translate(-50%, -100%) rotate(45deg);
-    border-top: transparent;
-    border-left: transparent;
-}
-
-.scroll-down::after {
-    top: 60%;
-}
-</style>

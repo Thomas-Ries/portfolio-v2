@@ -11,18 +11,20 @@ module.exports = {
       },
       colors: {
         // Globals
-        'primary'     : '',
-        'secondary'   : '',
-        'tertiary'    : '',
-        'link'        : '',
         'dark'        : '#000',
+        'yellowish'   : '#F0D140',
+        
+        // Link Hover
+        'github'      : '#77B1DA',
+        'medium'      : '#FFC016',
+        'pinterest'   : '#B3091A',
 
         // Backgrounds
         'charcoal'    : '#383230',
         'bamboo'      : '#CF8E55',
         'grey'        : '#EDEDED',
-        'dark'        : '#0F0F0F'
-
+        'footer'      : '#F5F5F5',
+        'dark'        : '#0F0F0F',
       }
     },
   },

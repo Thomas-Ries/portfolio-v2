@@ -1,8 +1,8 @@
 <template>
-        <section class="relative">
+        <section class="relative lg:hidden">
             <img
             class="h-screen w-full object-cover"
-            src="../assets/img/landingPage/hero.jpg" alt="road">
+            src="../assets/img/landingPage/landing-page.jpg" alt="road">
 
             <div
             class="nameHeader flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
@@ -11,21 +11,59 @@
                 <span class="text-bamboo text-5xl font-bold">T</span>homas <span class="text-bamboo text-5xl font-bold">R</span>ies
                 </h1>
 
-                <p
-                class="text-white text-xl text-center mt-2 font-light">
-                    Développeur curieux & passioné 
-                </p>
+                <div class="flex items-center justify-center">
+                    <p
+                    class="text-white text-xl text-center mt-2 font-light mr-1">
+                        Développeur
+                    </p>
+                    <VueWriter
+                    class="typing text-bamboo text-xl text-center mt-2"
+                    :array="arrayTyping" />
+                </div>
             </div>
-
         </section>
 
-        <div class="flex justify-center mx-auto items-center">
+        <section
+        class="relative hidden lg:flex xl:items-center bg-white">
+            <img
+            class="h-screen object-cover w-3/5 rounded-r-full"
+            src="../assets/img/landingPage/landing-page.jpg" alt="road">
+
+            <div
+            class="nameHeader absolute top-[40%] right-0 w-2/5 flex flex-col items-center h-16">
+            <img
+            class="w-36 h-36 rounded-full object-cover mb-4"
+            src="../assets/img/landingPage/meAvatar.png" alt="avatar">
+                <h1 
+                class="text-dark text-5xl text-center">
+                <span class="text-bamboo text-5xl font-bold">T</span>homas <span class="text-bamboo text-5xl font-bold">R</span>ies
+                </h1>
+
+                <div class="flex items-center">
+                    <p
+                    class="text-dark text-xl text-center mt-2 font-light mr-1">
+                        Développeur
+                    </p>
+                    <VueWriter
+                    class="text-bamboo text-xl text-center mt-2"
+                    :array="arrayTyping" />
+                </div>
+
+                <SocialBar
+                class="socialHeader" />
+
+            </div>
+        </section>
+
+        <div
+        ref="scrollDownVisibility"
+        class=" scrollDown flex justify-center mx-auto items-center">
             <ScrollDown />
         </div>
 
         <section
         id="about"
-        class="flex flex-col items-center py-48 bg-grey
+        class="flex flex-col items-center pt-28 pb-32 bg-white
         md:px-12 md:flex-row md:justify-center">
 
                 <img
@@ -38,8 +76,8 @@
                 md:ml-12
                 md:mt-0 md:items-start">
                     <h2
-                    class="font-bold text-dark text-3xl tracking-wider
-                    md:text-4xl">
+                    class="font-bold text-bamboo text-3xl tracking-wider
+                    md:text-5xl">
                         A PROPOS
                     </h2>
                     <p
@@ -65,7 +103,7 @@
                         href="mailto:thomasries.dev@gmail.com"
                         content="Me contacter"
                         svgMail="true"
-                        childClass="hover:bg-grey"
+                        childClass="hover:bg-white"
                         class="md:ml-6 mt-4 md:mt-0"/> 
                     </div>
 
@@ -75,22 +113,23 @@
 
         <section
         id="competences"
-        class="flex flex-col items-center py-24 bg-dark 
+        class="flex flex-col items-center py-24 bg-test 
         md:px-12 md:py-44 md:justify-center">
 
             <div
             class="flex flex-col
             md:items-center">
                 <h2
-                class="font-bold text-white text-3xl text-center tracking-wider	
-                md:text-4xl">
+                class="font-bold text-bamboo text-3xl text-center tracking-wider	
+                md:text-5xl">
                     MES COMPETENCES GENERALES
                 </h2>
 
                 <p
                 class="text-white font-light text-center px-4 mt-2
-                md:w-3/5">
-                    Curieux des nouvelles tendances et technologies, mes compétences évoluent avec mes connaissances
+                md:w-3/5
+                lg:text-xl">
+                    Curieux des nouvelles tendances et technologies, mes compétences évoluent quotidiennement avec mes connaissances
                 </p>
             </div>
 
@@ -130,8 +169,8 @@
             class="flex flex-col mt-20
             md:items-center md:mt-48">
                 <h2
-                class="font-bold text-white text-3xl text-center tracking-wider	
-                md:text-4xl">
+                class="font-bold text-bamboo text-3xl text-center tracking-wider	
+                md:text-5xl">
                     MES COMPETENCES TECHNIQUES
                 </h2>
 
@@ -156,24 +195,53 @@
 import gsap from "gsap";
 import { ref, onMounted } from "vue";
 import { useMotion } from '@vueuse/motion';
+import VueWriter from 'vue-writer'
 
 import ScrollDown from '../components/ScrollDown.vue';
 import DownloadCv from '../components/button/DownloadCv.vue';
 import PrimaryBlackButton from '../components/button/PrimaryBlackButton.vue';
 import CompetencesCard from "../components/competences/competencesCard.vue";
 import TechCompetences from "../components/competences/TechCompetences.vue";
-
-onMounted(() => {
-    gsap.from(".nameHeader", {
-        opacity: 0, 
-        y: -100, 
-        duration: 2
-    });
-});
+import SocialBar from '../components/socials/SocialBar.vue';
 
 const targetImage = ref();
 const targetGeneralCompetences = ref();
 const targetTechCompetences = ref();
+const scrollDownVisibility = ref(null);
+
+let arrayTyping = ref(["Web", "Curieux", "Passionné", "Front-End"])
+
+onMounted(() => {
+    gsap.from(".nameHeader", {
+        opacity: 0, 
+        y: -200, 
+        duration: 3,
+    });
+
+    gsap.from(".socialHeader", {
+        opacity: 0, 
+        x: 200, 
+        duration: 2,
+        delay: 2,
+    });
+
+    gsap.from(".scrollDown", {
+        opacity: 0, 
+        x: 200, 
+        duration: 2,
+        delay: 2,
+    });
+
+    window.addEventListener("scroll", () => {
+        var curr = window.pageYOffset;
+
+        if (curr >= 100) {
+            scrollDownVisibility.value.classList.add("hidden");
+        }else{
+            scrollDownVisibility.value.classList.remove("hidden");
+        }
+    });
+});
 
 useMotion(targetImage, {
     initial: {

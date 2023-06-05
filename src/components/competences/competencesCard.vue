@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center border border-white rounded w-80 my-12 pb-6
+    <div class="flex flex-col items-center rounded w-80 my-12 pb-6
     md:w-96 xl:my-0">
         <slot></slot>
         <div class="flex flex-col p-4">

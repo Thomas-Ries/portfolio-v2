@@ -7,10 +7,10 @@
         <div
         class="nameHeader flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
             <h1 
-            class="text-white text-5xl text-center">
-                <span class="text-bamboo text-8xl font-bold">M</span>es
-                <span class="text-bamboo text-8xl font-bold">E</span>xperiences
-                <span class="text-bamboo text-8xl font-bold">P</span>rofessionnelles
+            class="text-white text-xl lg:text-5xl text-center">
+                <span class="text-bamboo text-5xl lg:text-8xl font-bold">M</span>es
+                <span class="text-bamboo text-5xl lg:text-8xl font-bold">E</span>xperiences
+                <span class="text-bamboo text-5xl lg:text-8xl font-bold">P</span>rofessionnelles
             </h1>
         </div>
     </section>
@@ -18,7 +18,7 @@
         
         <!-- component -->
         <section>
-        <div class="bg-dark text-white py-8">
+        <div class="bg-white text-dark py-8">
         <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
 
 
@@ -30,7 +30,7 @@
         <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">
                 Un parcours atypique
         </p>
-        <p class="text-sm md:text-base text-gray-50 mb-4">
+        <p class="text-sm md:text-base text-dark mb-4">
                 Mes expériences passées me permettent aujourd'hui d'être polyvalent, curieux tout en m'offrant une vision de travail transverse où la collaboration est au coeur de mon quotidien.
         </p>
 
@@ -75,6 +75,7 @@
                         />
 
                         <TimelineCard
+                        ref="secondExperience"
                         childClass="right-timeline"
                         textAlign="text-left"
                         date="Février 2021 - Mai 2021"
@@ -84,6 +85,7 @@
                         />
 
                         <TimelineCard
+                        ref="thirdExperience"
                         childClass="left-timeline flex-row-reverse"
                         date="10 ans d'expériences"
                         job-title="Conseiller Bancaire"
@@ -92,6 +94,7 @@
                         />
 
                         <TimelineCard
+                        ref="fourthExperience"
                         childClass="right-timeline"
                         textAlign="text-left"
                         date="2 ans d'expériences"
@@ -101,6 +104,7 @@
                         />
 
                         <TimelineCard
+                        ref="fifthExperience"
                         childClass="left-timeline flex-row-reverse"
                         date="1 an d'expérience"
                         job-title="Co-Dirigeant & Associé / Chef"
@@ -121,7 +125,8 @@
     
 <script setup>
 import gsap from "gsap";
-import { onMounted } from "vue";
+import { ref, onMounted } from "vue";
+import { useMotion } from '@vueuse/motion';
 
 import WorkSvg from '../assets/svg/experiences/WorkSvg.vue';
 import TimelineCard from '../components/experiences/TimelineCard.vue';
@@ -139,5 +144,76 @@ onMounted(() => {
         duration: 1.5,
         delay: 1,
     });
+});
+
+const secondExperience = ref();
+const thirdExperience = ref();
+const fourthExperience = ref();
+const fifthExperience = ref();
+
+
+
+useMotion(secondExperience, {
+    initial: {
+        opacity: 0,
+        y: 100,
+    },
+    visibleOnce: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 800,
+            type: 'keyframes',
+            ease: 'easeIn',
+        },
+    }
+});
+
+useMotion(thirdExperience, {
+    initial: {
+        opacity: 0,
+        y: 100,
+    },
+    visibleOnce: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 800,
+            type: 'keyframes',
+            ease: 'easeIn',
+        },
+    }
+});
+
+useMotion(fourthExperience, {
+    initial: {
+        opacity: 0,
+        y: 100,
+    },
+    visibleOnce: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 800,
+            type: 'keyframes',
+            ease: 'easeIn',
+        },
+    }
+});
+
+useMotion(fifthExperience, {
+    initial: {
+        opacity: 0,
+        y: 100,
+    },
+    visibleOnce: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 800,
+            type: 'keyframes',
+            ease: 'easeIn',
+        },
+    }
 });
 </script>
