@@ -5,8 +5,12 @@
     class="flex flex-col px-4 pt-12 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
         <h1 
         class="text-bamboo text-5xl font-bold text-center">
-            MarketPlace
+            MarketPlace Acheter-où
         </h1>
+        <p class="text-gray-800 mt-3 text-center
+        md:mt-2">
+            Premier projet développé en Méthode Agile
+        </p>
     </div>
 </section>
 
@@ -20,7 +24,7 @@ md:flex-row md:items-start md:mt-0">
     md:w-3/5 sm:sticky sm:top-32 md:pr-4">
 
     <div
-    class="flex flex-col w-full
+    class="flex flex-col w-full mb-4
     md:px-4 md:border-l-2 md:border-gray-200">
 
         <div
@@ -140,7 +144,16 @@ md:flex-row md:items-start md:mt-0">
             Parcourir le site
         </a>
     </div>
-    
+
+    <div
+    class="bottom-2 left-2 flex items-center absolute
+    md:bottom-2 md:right-4 text-dark">
+        <svg class="animate-shake h-4 w-4 mr-4" fill="#000"  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+        <router-link
+        to="/projets">
+            Retour aux projets
+        </router-link>
+    </div>
 </aside>
 
 </template>

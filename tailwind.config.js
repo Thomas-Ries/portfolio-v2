@@ -28,19 +28,33 @@ module.exports = {
         'dark'        : '#0F0F0F',
         'competences' : '#363434',
       },
-      
+
       listStyleType: {
         none: 'none',
         disc: 'disc',
         decimal: 'decimal',
         square: 'square',
         roman: 'upper-roman',
-      }
+      },
+      
+      animation: {
+        shake: 'shake 10s ease-in-out infinite',
+      },
+
+      keyframes: {
+        shake: {
+          '0%, 100%' : {transform: 'translateX(0)'},
+          '10%, 30%, 50%, 70%, 90%' : {transform: 'translateX(1px)'},
+          '20%, 40%, 60%, 80%' : {transform: 'translateX(10px)'}
+        }
     },
+  }
   },
+
   variants: {
     extend: {},
   },
+
   plugins: [],
 
 }
