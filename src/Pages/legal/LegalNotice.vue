@@ -7,7 +7,7 @@
         src="../../assets/img/legal/legal-notice.jpg" alt="mentions légales">
 
         <div
-        class="nameHeader flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
+        class="flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
             <h1 
             class="text-dark text-4xl text-center
             md:text-5xl">

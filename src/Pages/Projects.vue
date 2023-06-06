@@ -5,7 +5,7 @@
         src="../assets/img/projects/projects.jpg" alt="Mes Projets">
 
         <div
-        class="nameHeader flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
+        class="flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
             <h1 
             class="text-white text-5xl text-center">
                 <span class="text-bamboo text-8xl font-bold">M</span>es
@@ -113,21 +113,23 @@
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
         </Card>
 
-        <Card
+        <CardExternalLink
         class="mr-4"
+        href="https://www.thomasries.fr"
         title="Portfolio V1"
         content="Découvrir mon premier portfolio réalisé en sorti de cursus Epitech">
             <img src="../assets/img/projects/portfolio-v1.jpg" alt="portfolio v1"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
-        </Card>
+        </CardExternalLink>
 
-        <Card
+        <CardExternalLink
         class="mr-4"
+        href="https://github.com/Thomas-Ries"
         title="Projets personnels"
         content="Accès vers mon Github personnel où je commit dès que je peux">
             <img src="../assets/img/projects/github.jpg" alt="Github"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
-        </Card>
+        </CardExternalLink>
 
     </section>
 
@@ -135,4 +137,5 @@
     
 <script setup>
 import Card from '../components/projects/Card.vue';
+import CardExternalLink from '../components/projects/CardExternalLink.vue';
 </script>

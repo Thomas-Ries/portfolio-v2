@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         libre: ['Roboto Condensed', 'Source Sans Pro', ...defaultTheme.fontFamily.sans]
       },
+
       colors: {
         // Globals
         'dark'        : '#000',
@@ -25,7 +26,15 @@ module.exports = {
         'grey'        : '#EDEDED',
         'footer'      : '#F5F5F5',
         'dark'        : '#0F0F0F',
-        'competences'        : '#363434',
+        'competences' : '#363434',
+      },
+      
+      listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        decimal: 'decimal',
+        square: 'square',
+        roman: 'upper-roman',
       }
     },
   },

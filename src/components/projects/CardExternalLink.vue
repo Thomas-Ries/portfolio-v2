@@ -1,7 +1,7 @@
 <template>
 
 <div 
- class="flex flex-col mt-16">
+    class="flex flex-col mt-16">
     <div class="flex items-center justify-center rounded-t-md">
     <div
     class="relative block w-80 h-80 md:h-96 bg-gray-100 group rounded-t-md">
@@ -20,12 +20,13 @@
                         <p class="text-white py-1">
                             {{ content }}
                         </p>
-                        <router-link
-                        :to="{ name: route }"
+                        <a
+                        :href="href"
+                        target="_blank"
                         class="my-6 absolute inset-x-0 bottom-0 h-12 w-40 mx-auto text-center text-dark rounded-xl border border-black bg-white px-4 py-2 transition-all duration-[550ms] ease-out
                         hover:bg-white hover:text-bamboo hover:w-64">
                             Découvrir le projet
-                        </router-link>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -39,11 +40,12 @@
         <p class="text-dark py-1 mb-4">
             {{ content }}
         </p>
-        <router-link
-        :to="{ name: route }"
+        <a
+        :href="href"
+        target="_blank"
         class="h-12 rounded-md border border-black text-white bg-black px-4 py-2 absolute inset-x-0 bottom-4 w-40 mx-auto text-center">
-          Découvrir le projet
-        </router-link>
+            Découvrir le projet
+        </a>
     </div>
 </div>
 
@@ -54,8 +56,7 @@
 const props = defineProps({
     title: String,
     content: String,
-    href: String,
-    route: String
+    href: String
 });
 
 

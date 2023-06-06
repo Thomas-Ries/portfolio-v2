@@ -5,7 +5,7 @@
         src="../assets/img/experiences/experiences.jpg" alt="Expériences profesionnelles">
 
         <div
-        class="nameHeader flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
+        class="flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
             <h1 
             class="text-white text-xl lg:text-5xl text-center">
                 <span class="text-bamboo text-5xl lg:text-8xl font-bold">M</span>es

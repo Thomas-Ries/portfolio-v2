@@ -2,7 +2,7 @@
         <section class="relative lg:hidden">
             <img
             class="h-screen w-full object-cover"
-            src="../assets/img/landingPage/landing-page.jpg" alt="road">
+            src="../assets/img/landingPage/landing-page.jpg" alt="landing-page">
 
             <div
             class="nameHeader flex flex-col absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
@@ -31,12 +31,10 @@
 
             <div
             class="nameHeader absolute top-[40%] right-0 w-2/5 flex flex-col items-center h-16">
-            <img
-            class="w-36 h-36 rounded-full object-cover mb-4"
-            src="../assets/img/landingPage/meAvatar.png" alt="avatar">
+
                 <h1 
                 class="text-dark text-5xl text-center">
-                <span class="text-bamboo text-5xl font-bold">T</span>homas <span class="text-bamboo text-5xl font-bold">R</span>ies
+                <span class="text-bamboo text-6xl font-bold">T</span>homas <span class="text-bamboo text-6xl font-bold">R</span>ies
                 </h1>
 
                 <div class="flex items-center">
@@ -65,11 +63,11 @@
         id="about"
         class="flex flex-col items-center pt-28 pb-32 bg-white
         md:px-12 md:flex-row md:justify-center">
-
-                <img
-                ref="targetImage"
-                class="rounded-2xl h-80 w-80"
-                src="../assets/img/landingPage/photo.jpg" alt="profil picture">
+            
+            <img
+            ref="targetImage"
+            class="w-80 h-80 rounded-full object-cover mb-4"
+            src="../assets/img/landingPage/meAvatar.png" alt="avatar">
 
                 <div
                 class="flex flex-col items-center mt-8 px-4

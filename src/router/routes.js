@@ -3,6 +3,7 @@ import Experiences from '../Pages/Experiences.vue';
 import Blog from '../Pages/Blog.vue';
 import LegalNotice from '../Pages/legal/LegalNotice.vue';
 import Projects from '../Pages/Projects.vue';
+
 import MarketPlace from '../Pages/projects/MarketPlace.vue'
 import SnS from '../Pages/projects/SnS.vue';
 import Regie from '../Pages/projects/Regie.vue';
@@ -12,7 +13,6 @@ import SmartCampaign from '../Pages/projects/SmartCampaign.vue';
 import Network from '../Pages/projects/Network.vue';
 import Rejoindre from '../Pages/projects/Rejoindre.vue';
 import Coffee from '../Pages/projects/Coffee.vue';
-
 
 
 const routes = [
