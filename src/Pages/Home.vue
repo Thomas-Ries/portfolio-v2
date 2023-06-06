@@ -113,7 +113,7 @@
 
         <section
         id="competences"
-        class="flex flex-col items-center py-24 bg-test 
+        class="flex flex-col items-center py-24 bg-competences 
         md:px-12 md:py-44 md:justify-center">
 
             <div

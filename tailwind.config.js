@@ -25,7 +25,7 @@ module.exports = {
         'grey'        : '#EDEDED',
         'footer'      : '#F5F5F5',
         'dark'        : '#0F0F0F',
-        'test'        : '#363434',
+        'competences'        : '#363434',
       }
     },
   },
