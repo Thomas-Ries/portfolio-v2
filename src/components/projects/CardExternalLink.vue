@@ -23,9 +23,9 @@
                         <a
                         :href="href"
                         target="_blank"
-                        class="my-6 absolute inset-x-0 bottom-0 h-12 w-40 mx-auto text-center text-dark rounded-xl border border-black bg-white px-4 py-2 transition-all duration-[550ms] ease-out
+                        class="my-6 absolute inset-x-0 bottom-0 h-12 w-48 mx-auto text-center text-dark rounded-xl border border-black bg-white px-4 py-2 transition-all duration-[550ms] ease-out
                         hover:bg-white hover:text-bamboo hover:w-64">
-                            Découvrir le projet
+                        {{ titleCta }}
                         </a>
                     </div>
                 </div>
@@ -43,8 +43,8 @@
         <a
         :href="href"
         target="_blank"
-        class="h-12 rounded-md border border-black text-white bg-black px-4 py-2 absolute inset-x-0 bottom-4 w-40 mx-auto text-center">
-            Découvrir le projet
+        class="h-12 rounded-md border border-black text-white bg-black px-4 py-2 absolute inset-x-0 bottom-4 w-48 mx-auto text-center">
+            {{ titleCta }}
         </a>
     </div>
 </div>
@@ -56,7 +56,8 @@
 const props = defineProps({
     title: String,
     content: String,
-    href: String
+    href: String,
+    titleCta: String
 });
 
 

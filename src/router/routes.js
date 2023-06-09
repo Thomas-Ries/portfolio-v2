@@ -12,6 +12,7 @@ import PageBuilder from '../Pages/projects/PageBuilder.vue';
 import SmartCampaign from '../Pages/projects/SmartCampaign.vue';
 import Network from '../Pages/projects/Network.vue';
 import Rejoindre from '../Pages/projects/Rejoindre.vue';
+import PortfolioFirst from '../Pages/projects/PortfolioFirst.vue';
 import Coffee from '../Pages/projects/Coffee.vue';
 
 
@@ -80,6 +81,11 @@ const routes = [
         path: '/projets/rejoindre',
         name: 'rejoindre',
         component: Rejoindre,
+    },
+    {
+        path: '/projets/premier-portfolio',
+        name: 'portfolio-first',
+        component: PortfolioFirst,
     },
     {
         path: '/projets/cafe-tech',

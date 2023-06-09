@@ -14,7 +14,7 @@
         </div>
     </section>
     
-    <aside class="relative flex flex-col mt-0 py-12 px-4
+    <section class="relative flex flex-col mt-0 py-12 px-4
     md:flex-row md:items-start md:mt-0">
     
         <img
@@ -23,7 +23,7 @@
         class="w-full object-contain
         md:w-3/5 sm:sticky sm:top-32 md:pr-4">
     
-        <div
+        <asside
         class="flex flex-col w-full mb-4
         md:px-4 md:border-l-2 md:border-gray-200">
     
@@ -136,15 +136,18 @@
             </span>
                 Parcourir le site
             </a>
-        </div>
+        </asside>
     
-        <div class="bottom-2 left-2 flex justify-center items-center absolute lg:bottom-2 lg:right-4 text-dark">
+        <div
+        class="hidden absolute md:flex md:items-center
+        md:bottom-2 md:right-4 text-dark">
             <svg class="animate-shake h-4 w-4 mr-4" fill="#000"  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
             <router-link
+            class="cool-hover"
             to="/projets">
                 Retour aux projets
             </router-link>
         </div>
-    </aside>
+    </section>
     
     </template>

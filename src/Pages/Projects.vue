@@ -28,9 +28,7 @@
         </p>
     </section>
 
-
-
-    <section class="flex flex-col justify-content items-center py-8
+    <section class="flex flex-col justify-content items-center py-8 mb-8
     md:flex-row md:items-center md:justify-between md:flex-wrap md:w-5/6 md:mx-auto">
 
         <Card
@@ -53,7 +51,7 @@
         <Card
         class="mr-4"
         title="Projet interne"
-        content="Outil d'aide à la vente pour commerciaux en PWA (Progressive Web App)"
+        content="Outil d'aide à la vente pour franchisés en PWA (Progressive Web App)"
         :route="'sns'">
             <img src="../assets/img/projects/pwa.jpg" alt="projet interne pwa"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
@@ -113,20 +111,21 @@
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
         </Card>
 
-        <CardExternalLink
+        <Card
         class="mr-4"
-        href="https://www.thomasries.fr"
+        :route="'portfolio-first'"
         title="Portfolio V1"
         content="Découvrir mon premier portfolio réalisé en sorti de cursus Epitech">
             <img src="../assets/img/projects/portfolio-v1.jpg" alt="portfolio v1"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
-        </CardExternalLink>
+        </Card>
 
         <CardExternalLink
         class="mr-4"
         href="https://github.com/Thomas-Ries"
         title="Projets personnels"
-        content="Accès vers mon Github personnel où je commit dès que je peux">
+        content="Accès vers mon Github personnel où je commit dès que je peux"
+        titleCta="Accès à mon Github">
             <img src="../assets/img/projects/github.jpg" alt="Github"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
         </CardExternalLink>

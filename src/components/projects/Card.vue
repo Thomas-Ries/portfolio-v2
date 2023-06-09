@@ -4,7 +4,7 @@
  class="flex flex-col mt-16">
     <div class="flex items-center justify-center rounded-t-md">
     <div
-    class="relative block w-80 h-80 md:h-96 bg-gray-100 group rounded-t-md">
+    class="relative block w-80 h-80 md:h-96 bg-gray-100 group rounded-t-md ">
 
         <slot></slot>
 

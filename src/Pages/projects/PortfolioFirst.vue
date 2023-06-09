@@ -5,11 +5,11 @@
         class="flex flex-col px-4 pt-12 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
             <h1 
             class="text-bamboo text-5xl font-bold text-center">
-                Outil orienté SEO
+                Portfolio V1
             </h1>
             <p class="text-gray-800 mt-3 text-center
             md:mt-2">
-                Premeier grand projet dans l'entreprise & travail avec une API Google
+                Premier portfolio en sortie de formation
             </p>
         </div>
     </section>
@@ -18,7 +18,7 @@
     md:flex-row md:items-start md:mt-0">
     
         <img
-        src="../../assets/img/projects/seo.jpg"
+        src="../../assets/img/projects/portfolio-v1.jpg"
         alt="acheter-ou"
         class="w-full object-contain
         md:w-3/5 sm:sticky sm:top-32 md:pr-4">
@@ -41,7 +41,7 @@
     
                 <p class="text-dark mt-3
                 md:mt-4">
-                    Donner la possibilité à nos clients de créer et piloter par eux-même leur campagnes publicitaire et SEO Google
+                    Création et développement de mon premier portfolio réalisé en sortie de formation dans le but de démontrer mes capacités de création et développement afin d'être sélectionné dans des perspectives d'embauches.
                 </p>
             </div>
     
@@ -61,16 +61,19 @@
                 <ul class="text-dark mt-3 list-square pl-4
                 md:mt-4">
                     <li>
-                        Vuejs
+                        Html5
                     </li>
                     <li>
-                        VueX
+                        CSS3
                     </li>
                     <li>
-                        Talwind
+                        Vanilla Javascript
                     </li>
                     <li>
-                        Laravel
+                        GSAP - Green Sock Animation
+                    </li>
+                    <li>
+                        AOS Animation
                     </li>
                 </ul>
             </div>
@@ -90,13 +93,13 @@
                 <ul class="text-dark mt-3 list-disc pl-4
                 md:mt-4">
                     <li>
-                        Première utilisation de Open Street Map via Leaflet
+                        Ecrire un markup respectant les conventions
                     </li>
                     <li>
-                        Premier projet avec initialisation de VueX en complète autonomie
+                        Premier site déployé par mes soins
                     </li>
                     <li>
-                        Premier gros projet au sein de l'entreprise
+                        Site développé 100% en CSS et media queries pour la partie responsive ainsi qu'en vanilla Javascript
                     </li>
                 </ul>
             </div>
@@ -116,23 +119,26 @@
                 <ul class="text-dark mt-3 list-disc pl-4
                 md:mt-4">
                     <li>
-                        Lecture approfondit de la documentation Leaflet et Open Street Map
+                        Recherches sur les conventions et normes W3C
                     </li>
                     <li>
-                        Lecture de la documentation VueX et recherche de solution en ligne
+                        Apprentissage des normes actuelles
                     </li>
                     <li>
-                        Accompagnement par mon lead-dev dans la prise de confiance sur ce premier projet d'envergure
+                        Hiérarchisation et architecure propre du projet / Apprentissage poussé de Framework Front
                     </li>
                 </ul>
             </div>
-            <div
-            class="flex items-center justify-center mt-24">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-6 w-6 mr-4" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
-                <p class="text-dark">
-                    Code et projet non visualisable (projet interne)
-                </p>
-            </div>
+            <a
+            href="http://www.thomasries.fr/"
+            target="_blank"
+            class="h-12 mt-12 rounded-md border border-black text-dark bg-white px-4 py-2 w-48 mx-auto text-center transition-all duration-[550ms] ease-out flex items-center justify-center
+            hover:bg-dark hover:text-white hover:w-64">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-6 w-6 mr-4 hover:fill-white" viewBox="0 0 512 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM96 96H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+            </span>
+                Parcourir le site
+            </a>
         </asside>
     
         <div
