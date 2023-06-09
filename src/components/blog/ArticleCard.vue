@@ -70,13 +70,13 @@
 
 <script setup>
 import { ref } from 'vue';
-import { momentFr } from '../../composables/moment/momentFr';
+import { useMomentFr } from '../../composables/moment/momentFr';
 import RotateLoader from '../../components/loader/RotateLoader.vue';
 
 import axios from 'axios';
 import moment from 'moment';
 
-momentFr();
+useMomentFr();
 moment.locale('fr');
 
 const loading = ref(true);
