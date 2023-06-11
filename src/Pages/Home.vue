@@ -90,7 +90,7 @@
                     D’expériences riches et variées, je suis un développeur innovant, curieux et en constante évolution.
                     J’aime concevoir et maintenir des sites web responsive à l’aide de frameworks modernes tout en
                     poussant mes connaissances à s’étendre. Passionné d’UI, d’UX, de design et de photographie, je
-                    crée au sein d'une entreprise du digital, des expériences utilisateurs uniques et immersives.
+                    crée, au sein d'une entreprise du digital, des expériences utilisateurs uniques et immersives.
                     </p>
 
                     <div
@@ -137,20 +137,20 @@
             xl:flex-row xl:mt-20">
                 <CompetencesCard
                 class="xl:mr-8"
-                title="UI UX Design"
-                content="Passionné par l'UI et l'UX, j'effectue une veille régulière sur ces sujets afin de pouvoir être force de propositions et comprendre ces enjeux déterminants dans la conception de solutions web." >
-                    <img
-                    class="object-cover h-64 w-full"
-                    src="../assets/img/competences/ui-ux-design.jpg" alt="">
-                </CompetencesCard>
-
-                <CompetencesCard
-                class="xl:mr-8"
                 title="Développement Web"
                 content="Je me suis engagé pleinement dans l'univers du développement web afin de pouvoir penser, créer et développer des sites orientés design, fonctionnabilités et accessibilités." >
                     <img
                     class="object-cover h-64 w-full"
                     src="../assets/img/competences/web-dev.jpg" alt="developpement web">
+                </CompetencesCard>
+
+                <CompetencesCard
+                class="xl:mr-8"
+                title="UI UX Design"
+                content="Passionné par l'UI et l'UX, j'effectue une veille régulière sur ces sujets afin de pouvoir être force de propositions et comprendre ces enjeux déterminants dans la conception de solutions web." >
+                    <img
+                    class="object-cover h-64 w-full"
+                    src="../assets/img/competences/ui-ux-design.jpg" alt="">
                 </CompetencesCard>
 
                 <CompetencesCard
@@ -213,21 +213,21 @@ onMounted(() => {
     gsap.from(".nameHeader", {
         opacity: 0, 
         y: -200, 
-        duration: 3,
+        duration: 2,
     });
 
     gsap.from(".socialHeader", {
         opacity: 0, 
         x: 200, 
         duration: 2,
-        delay: 2,
+        delay: 1,
     });
 
     gsap.from(".scrollDown", {
         opacity: 0, 
         x: 200, 
         duration: 2,
-        delay: 2,
+        delay: 1,
     });
 
     window.addEventListener("scroll", () => {

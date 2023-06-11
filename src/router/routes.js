@@ -13,8 +13,9 @@ import SmartCampaign from '../Pages/projects/SmartCampaign.vue';
 import Network from '../Pages/projects/Network.vue';
 import Rejoindre from '../Pages/projects/Rejoindre.vue';
 import PortfolioFirst from '../Pages/projects/PortfolioFirst.vue';
+import Portfolio2023 from '../Pages/projects/Portfolio2023.vue';
 import Coffee from '../Pages/projects/Coffee.vue';
-
+import NotFound from '../Pages/404.vue';
 
 const routes = [
     {
@@ -83,15 +84,26 @@ const routes = [
         component: Rejoindre,
     },
     {
-        path: '/projets/premier-portfolio',
+        path: '/projets/portfolio-2021',
         name: 'portfolio-first',
         component: PortfolioFirst,
+    },
+    {
+        path: '/projets/portfolio-2023',
+        name: 'portfolio-second',
+        component: Portfolio2023,
     },
     {
         path: '/projets/cafe-tech',
         name: 'coffee',
         component: Coffee,
     },
+    {
+        // path: "*",
+        path: "/:catchAll(.*)",
+        name: "NotFound",
+        component: NotFound,
+    }
 ];
 
 export default routes;

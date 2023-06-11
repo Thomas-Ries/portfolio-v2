@@ -39,6 +39,7 @@ module.exports = {
       
       animation: {
         shake: 'shake 10s ease-in-out infinite',
+        rotateInDownLeft: 'rotateInDownLeft 3s ease-in-out infinite',
       },
 
       keyframes: {
@@ -46,6 +47,16 @@ module.exports = {
           '0%, 100%' : {transform: 'translateX(0)'},
           '10%, 30%, 50%, 70%, 90%' : {transform: 'translateX(1px)'},
           '20%, 40%, 60%, 80%' : {transform: 'translateX(10px)'}
+        },
+        shakeInverse: {
+          '0%, 100%' : {transform: 'translateY(0)'},
+          '10%, 30%, 50%, 70%, 90%' : {transform: 'translateY(1px)'},
+          '20%, 40%, 60%, 80%' : {transform: 'translateY(10px)'}
+        },
+        rotateInDownLeft: {
+          '0%' : { origin: 'left bottom', transform: 'rotate(-15deg)', opacity: '1'},
+          '50%' : {origin: 'left bottom', transform: 'rotate(0)', opacity: '1'},
+          '100%' : {origin: 'bottom left', transform: 'rotate(-15deg)', opacity: '1'},
         }
     },
   }

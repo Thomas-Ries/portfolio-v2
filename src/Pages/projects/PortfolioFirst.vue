@@ -5,7 +5,7 @@
         class="flex flex-col px-4 pt-12 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-full">
             <h1 
             class="text-bamboo text-5xl font-bold text-center">
-                Portfolio V1
+                Portfolio 2021
             </h1>
             <p class="text-gray-800 mt-3 text-center
             md:mt-2">

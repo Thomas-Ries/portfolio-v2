@@ -114,9 +114,18 @@
         <Card
         class="mr-4"
         :route="'portfolio-first'"
-        title="Portfolio V1"
+        title="Portfolio 2021"
         content="Découvrir mon premier portfolio réalisé en sorti de cursus Epitech">
-            <img src="../assets/img/projects/portfolio-v1.jpg" alt="portfolio v1"
+            <img src="../assets/img/projects/portfolio-v1.jpg" alt="portfolio 2021"
+            class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
+        </Card>
+
+        <Card
+        class="mr-4"
+        :route="'portfolio-second'"
+        title="Portfolio 2023"
+        content="Découvrir en détail mon portfolio actuel">
+            <img src="../assets/img/projects/portfolio-2023.jpg" alt="portfolio 2023"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
         </Card>
 
