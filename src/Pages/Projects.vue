@@ -33,7 +33,7 @@
 
         <Card
         title="Acheter-ou-shop"
-        content="Création d'une marketplace régionale afin d'offrir une visibilité à tous les commerçants locaux."
+        content="Création d'une marketplace régionale offrant une visibilité à tous les commerçants locaux."
         :route="'marketplace'">
             <img src="../assets/img/projects/acheter-ou.png" alt="acheter-ou"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
@@ -60,7 +60,7 @@
         <Card
         class="mr-4"
         title="Application de recommandations d'entreprises"
-        content="Application permettant de recommander des entreprise"
+        content="Application permettant pour un particulier de recommander des entreprises"
         :route="'club'">
             <img src="../assets/img/projects/companies-reco.jpg" alt="projet interne recommandation"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
@@ -78,7 +78,7 @@
         <Card
         class="mr-4"
         title="Projet interne"
-        content="Développement d'un outil orienté SEO à destination de nos clients"
+        content="Développement d'un outil orienté SEO / SEA"
         :route="'smartcampaign'">
             <img src="../assets/img/projects/seo.jpg" alt="projet interne"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">
@@ -96,7 +96,7 @@
         <Card
         class="mr-4"
         title="Rejoindre Plus que Pro"
-        content="Intégration et développement de pages / Création de custom post type / résolution de bugs sur le site dédié à la promotion de la marque"
+        content="Intégration et développement de pages / Création de custom post type / Résolutions de bugs sur le site dédié à la promotion de la marque"
         :route="'rejoindre'">
             <img src="../assets/img/projects/rejoindre.jpg" alt="Rejoindre Plus que Pro"
             class="absolute inset-0 object-cover w-full h-full group-hover:opacity-100 transition duration-500 ease-in-out group-hover:blur-sm rounded-t-md">

@@ -41,7 +41,7 @@
     
                 <p class="text-dark mt-3
                 md:mt-4">
-                    Création de page et / ou résolution de bugs, j'ai eu à intervenir à quelques reprises sur l'un de nos sites vitrine à importance capital pour l'entreprise.
+                    Créations de pages et / ou résolutions de bugs, j'ai eu à intervenir à quelques reprises sur l'un de nos sites vitrine.
                 </p>
                 <p class="text-dark mt-1
                 md:mt-4">

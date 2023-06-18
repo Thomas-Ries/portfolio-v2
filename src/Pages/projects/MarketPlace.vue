@@ -46,8 +46,7 @@ md:flex-row md:items-start md:mt-0">
             </p>
             <p class="text-dark mt-1
                 md:mt-4">
-                Mes tâches consistaient en l'intégration et le développement de la partie front tout en étant force de proposition sur la partie graphique. De la Home Page en passant par l'espace personnel il m'a fallut développer les vues de concert entre Blade, Vue.js et Bootstrap.
-                Ceci afin de passer les données du back vers le front puis de les afficher comme demandé.
+                Mes tâches consistaient en l'intégration et le développement de la partie Front tout en étant force de proposition sur la partie graphique. De la Home Page en passant par l'espace personnel j'ai développé les vues de concert entre Blade, Vue.js et Bootstrap afin de passer les données du Back vers le Front.
             </p>
         </div>
 
@@ -99,16 +98,16 @@ md:flex-row md:items-start md:mt-0">
             <ul class="text-dark mt-3 list-disc pl-4
             md:mt-4">
                 <li>
-                    Ancien framework (Vue et Bootstrap)
+                    Ancien framework (Vue2 et Bootstrap) et découverte de Blade
                 </li>
                 <li>
-                    Acclimatation à Blade et à son marckup
+                   Découverte de Blade et de son marckup
                 </li>
                 <li>
-                    Certaines lacunes en Git au sein d'un projet comportant beaucoup de ressources
+                    Organisation d'équipe sous les soumissions Git
                 </li>
                 <li>
-                    Premier projet d'un telle ampleur
+                    Premier projet d'une telle ampleur
                 </li>
             </ul>
         </div>

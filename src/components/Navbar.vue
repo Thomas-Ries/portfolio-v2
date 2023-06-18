@@ -6,8 +6,8 @@
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
         <router-link to="/" >
-          <h1 class="text-dark text-xl font-bold">
-          <span class="text-bamboo text-2xl font-bold">T</span>homas <span class="text-bamboo text-2xl font-bold">R</span>ies</h1>
+          <h1 class="text-dark text-3xl font-bold">
+          <span class="text-bamboo text-3xl font-bold">T</span>homas <span class="text-bamboo text-3xl font-bold">R</span>ies</h1>
         </router-link>
       </div>
       <div class="sm:hidden">

@@ -29,8 +29,11 @@
                 Un parcours atypique
         </p>
         <p class="text-sm md:text-base text-dark mb-4">
-                Mes expériences passées me permettent aujourd'hui d'être polyvalent, curieux tout en m'offrant une vision de travail transverse où la collaboration est au coeur de mon quotidien.
+            De la banque au développement, en passant par l'entrepreunariat, ma constante a toujours été la transversalité, la polyvalence et le management d'équipe.
         </p>
+        <!-- <p class="text-sm md:text-base text-dark mb-4">
+                Mes expériences passées me permettent aujourd'hui d'être polyvalent, curieux avec une vision de travail transverse où la collaboration est au coeur de mon quotidien.
+        </p> -->
 
         <div
         class="flex flex-col items-center
@@ -67,9 +70,7 @@
                     date="03/05/2021 - Aujourd'hui"
                     job-title="Développeur Front-End"
                     company="Plus que Pro"
-                    content="En charge de la réflexion, création et maintenance de sites Internet, d’outils internes et externes. Je prends
-                    également part aux décisions technologiques relatives au Front. En relation étroite avec le service Création, l’enjeu
-                    de l’UI et UX des sites est au coeur de nos échanges"
+                    content="En charge de la création et maintenance de sites Internet ainsi que d’outils internes et externes. Je suis force de proposition et décideur quant aux technologiques relatives au développement Front. L’enjeu de l’UI et UX des sites est au coeur de mon quotidien."
                     />
 
                     <TimelineCard
@@ -79,7 +80,7 @@
                     date="Février 2021 - Mai 2021"
                     job-title="Webmaster projet digital"
                     company="Crédit Agricole Alsace Vosges"
-                    content="Stage effectuée dans le cadre de l’obtention de mon diplôme de Développeur au sein du service Projets Digital."
+                    content="Responsable de l'actualisation du site vitrine ainsi que du dévelopement de projets internes. J'ai effectué ce stage dans le cadre de l’obtention de mon diplôme de Développeur au sein du service Projets Digital."
                     />
 
                     <TimelineCard
@@ -88,7 +89,7 @@
                     date="10 ans d'expériences"
                     job-title="Conseiller Bancaire"
                     company="Banque Kolb / Banque Populaire d'Alsace"
-                    content="Conseils & ventes de produits et servces bancaires mais aussi de solutions financières et d'assurances. Accompagnement des clients dans leurs projets de vie"
+                    content="Conseils & vente de produits et services bancaires, de solutions financières et d'assurances. J'ai accompagné des clients dans leurs projets de vie."
                     />
 
                     <TimelineCard
@@ -98,7 +99,7 @@
                     date="2 ans d'expériences"
                     job-title="Dirigeant"
                     company="L'Atelier du Barbu"
-                    content="Cuisinier à domicile / Bloggeur alimentation (publié)"
+                    content="Cuisinier à domicile / Bloggeur alimentation (publié)."
                     />
 
                     <TimelineCard
@@ -107,7 +108,7 @@
                     date="1 an d'expérience"
                     job-title="Co-Dirigeant & Associé / Chef"
                     company="L'Eden Sans Gluten"
-                    content="En charge de la communication externe et d'une partie du personnel, chef de cuisine au sein d'un restaurant"
+                    content="En charge de la communication externe et du personnel, chef de cuisine au sein d'un restaurant."
                     />
 
             </div>

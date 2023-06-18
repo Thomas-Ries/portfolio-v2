@@ -122,7 +122,7 @@
                         Prise de confiance dans les rebase et merge request sur Gitlab
                     </li>
                     <li>
-                        Appropriation de la documentation générale de Wordpress
+                        Développement de solutions de contournement supportées par Elementor
                     </li>
                 </ul>
             </div>

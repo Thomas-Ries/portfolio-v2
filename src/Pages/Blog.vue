@@ -35,7 +35,7 @@
         </div>
 
         <aside class="asideFollow hidden right-14 xl:block xl:inset-y-0 2xl:right-32 xl:top-[70%] xl:w-96 xl:absolute xl:h-screen xl:border-gray-100 xl:border-l-2 pl-8">
-            <div class="sticky top-20">
+            <div class="sticky top-32">
                 <h2 class="text-2xl text-center"> Me suivre sur les réseaux</h2>
                 <p
                 class="text-gray-500 text-center font-light mt-4 mb-2">
@@ -55,7 +55,7 @@
 
                 <p
                 class="text-gray-500 text-center font-light mt-4">
-                    Vous désirez me contacter afin d'améliorer votre site Internet, revisiter votre UI/UX ou encore pour des conseils inhérent à votre image sur le web ?
+                    Vous désirez me contacter afin de discuter d'une opportunité ?
                 </p>
 
                 <div class="flex justify-center mt-8">

@@ -19,11 +19,11 @@
             </p>
 
             <button
-            class="group relative h-12 w-40 mx-auto rounded mt-12 border border-black bg-black px-4  transition-all duration-[550ms] ease-out"
-            :class="childClass">
+            class="group relative h-12 w-40 mx-auto rounded mt-12 border border-black bg-black px-4 transition-all duration-[550ms] ease-out
+            md:hover:bg-white md:hover:text-dark">
                 <router-link
                 to="/"
-                class="mt-1 block px-2 text-white">
+                class="mt-1 block px-2 text-white md:hover:text-dark">
                 Accueil
                 </router-link>
             </button>

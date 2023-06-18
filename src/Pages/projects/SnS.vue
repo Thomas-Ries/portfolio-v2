@@ -41,7 +41,7 @@
     
                 <p class="text-dark mt-3
                 md:mt-4">
-                    Développement d'un site pouvant s'installer en PWA cross-plateforme afin d'apporter un nouvel outil d'aide à la vente aux franchisés du groupe.
+                    Développement d'un site pouvant s'installer en PWA cross-plateformes afin d'apporter un nouvel outil d'aide à la vente aux franchisés du groupe.
                 </p>
                 <p class="text-dark mt-1
                 md:mt-4">
@@ -94,13 +94,13 @@
                 <ul class="text-dark mt-3 list-disc pl-4
                 md:mt-4">
                     <li>
-                        Gestion du mode offline avec stockage des données lors de la présentation et envoit de ces dernières lors dune reconnexion
+                        Gestion du mode offline avec stockage des données lors de la présentation et envoi de ces dernières lors d'une reconnexion
                     </li>
                     <li>
                         Découverte de Vue 3 et de Pinia
                     </li>
                     <li>
-                        Baisse de ressources développeurs
+                        Diminution des ressources développeurs
                     </li>
                     <li>
                         Restrictions de la part d'Apple (notifications, offline, divers OS fonctionnant différrement)
@@ -123,13 +123,13 @@
                 <ul class="text-dark mt-3 list-disc pl-4
                 md:mt-4">
                     <li>
-                        Gestion du cache via workBow et Quasar pour garantir la sauvegarde des données enregistrées
+                        Gestion du cache via WorkBox et Quasar pour garantir la sauvegarde des données enregistrées
                     </li>
                     <li>
                         Montée en compétences sur la nouvelle version Vuejs et lecture de la documentation Pinia
                     </li>
                     <li>
-                        Réflexion et création d'un workflow spécifique pour limiter les restrictions d'Apple
+                        Création d'un workflow spécifique pour limiter l'impact des restrictions d'Apple
                     </li>
                 </ul>
             </div>

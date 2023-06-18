@@ -41,7 +41,7 @@
     
                 <p class="text-dark mt-3
                 md:mt-4">
-                    Donner la possibilité à nos clients de créer et piloter par eux-même leur campagnes publicitaire et SEO Google
+                    Donner la possibilité à nos clients de créer et piloter par eux-même leur campagnes publicitaires et SEO Google
                 </p>
             </div>
     
@@ -116,7 +116,7 @@
                 <ul class="text-dark mt-3 list-disc pl-4
                 md:mt-4">
                     <li>
-                        Lecture approfondit de la documentation Leaflet et Open Street Map
+                        Lecture approfondie de la documentation Leaflet et Open Street Map
                     </li>
                     <li>
                         Lecture de la documentation VueX et recherche de solution en ligne

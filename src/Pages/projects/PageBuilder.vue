@@ -45,7 +45,7 @@
                 </p>
                 <p class="text-dark mt-1
                 md:mt-4">
-                    J'ai eu en charge la création de la partie front du CMS à savoir le "page-builder" dans son ensemble. De la couleur de ce dernier à la création de chaque composants en drag & drop tout en passant par l'implémentation d'une map via OpenStreetMap et Leaflet, ce projet m'aura permis de renforcer mes compétences en vanilla Javascript 
+                    J'ai eu en charge la création de la partie front du CMS à savoir le "page-builder" dans son ensemble. De l'apparence de ce dernier à la création de chaque composants en drag & drop tout en passant par l'implémentation d'une map via OpenStreetMap et Leaflet, ce projet m'aura permis de renforcer mes compétences en vanilla Javascript 
                 </p>
             </div>
     
@@ -123,7 +123,7 @@
                         Montée en compétence en vanilla Javascript à travers des exercices en ligne
                     </li>
                     <li>
-                        PAssage par le Github du projet en direct et navigation à travers les "issues" pour trouver des réponses à mes interrogations
+                        Passage par le Github du projet en direct et navigation à travers les "issues" pour trouver des réponses à mes interrogations
                     </li>
                 </ul>
             </div>

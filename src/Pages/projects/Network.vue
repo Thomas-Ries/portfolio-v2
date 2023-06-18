@@ -41,7 +41,7 @@
     
                 <p class="text-dark mt-3
                 md:mt-4">
-                    Création de page et / ou résolution de bugs, j'ai eu à intervenir à quelques reprises sur l'un de nos sites vitrine à importance capital pour l'entreprise.
+                    Création de pages et / ou résolutions de bugs, j'ai eu à intervenir à quelques reprises sur l'un de nos sites vitrine.
                 </p>
             </div>
     
@@ -93,7 +93,7 @@
                         Résolution rapides de bugs
                     </li>
                     <li>
-                        Soucis liés à Elementor dans nottament des bugs d'affichage
+                        Soucis liés à Elementor dans, notamment, des bugs d'affichage
                     </li>
                 </ul>
             </div>

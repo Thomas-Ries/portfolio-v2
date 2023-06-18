@@ -41,7 +41,7 @@
     
                 <p class="text-dark mt-3
                 md:mt-4">
-                    Développement d'une application en React Native au sein de laquelle j'ai eu la responsablilité du développement de toutes les webviews afin de soulager le développement de l'application native.
+                    Développement des webviews au sein d'une application en react Native.
                 </p>
             </div>
     
@@ -93,10 +93,10 @@
                         Découverte d'Inertia
                     </li>
                     <li>
-                        Changement réccurent d'UI / UX
+                        Changements récurrents d'UI / UX
                     </li>
                     <li>
-                        Baisse de ressources développeurs
+                        Diminution des ressources développeurs
                     </li>
                 </ul>
             </div>
@@ -116,13 +116,13 @@
                 <ul class="text-dark mt-3 list-disc pl-4
                 md:mt-4">
                     <li>
-                        Appropriation d'Inertia dans nottamment les principes de State Management
+                        Appropriation d'Inertia dans notamment les principes de State Management
                     </li>
                     <li>
-                        Adaptabilité dans le code via création de component et composables afin d'être réactifs dans les changements demandés.
+                        Adaptabilité dans le code via création de components et composables afin d'être réactif dans les changements demandés
                     </li>
                     <li>
-                        Prise en main d'Inertia côté back (création de controller et de routes)
+                        Prise en main d'Inertia côté Back (création de controller et de routes)
                     </li>
                 </ul>
             </div>

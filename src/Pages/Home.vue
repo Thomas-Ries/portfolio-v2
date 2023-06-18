@@ -13,7 +13,7 @@
 
                 <div class="flex items-center justify-center">
                     <p
-                    class="text-white text-xl text-center mt-2 font-light mr-1">
+                    class="text-white text-xl text-center mt-2 mr-1">
                         Développeur
                     </p>
                     <VueWriter
@@ -39,11 +39,11 @@
 
                 <div class="flex items-center">
                     <p
-                    class="text-dark text-xl text-center mt-2 font-light mr-1">
+                    class="text-dark text-2xl text-center mt-2 font-light mr-1">
                         Développeur
                     </p>
                     <VueWriter
-                    class="text-bamboo text-xl text-center mt-2"
+                    class="text-bamboo text-2xl text-center mt-2"
                     :array="arrayTyping" />
                 </div>
 
@@ -85,13 +85,21 @@
                     </p>
                     
                     <p
-                    class="py-4 px-4
+                    class="pt-4 pb-2 px-4
                     md:px-0 md:w-96">
                     D’expériences riches et variées, je suis un développeur innovant, curieux et en constante évolution.
                     J’aime concevoir et maintenir des sites web responsive à l’aide de frameworks modernes tout en
-                    poussant mes connaissances à s’étendre. Passionné d’UI, d’UX, de design et de photographie, je
+                    accroissant mes connaissances.
+                    </p>
+
+                    <p
+                    class="pb-4 px-4
+                    md:px-0 md:w-96">
+                    Passionné d’UI, d’UX, de design et de photographie, je
                     crée, au sein d'une entreprise du digital, des expériences utilisateurs uniques et immersives.
                     </p>
+
+
 
                     <div
                     class="flex flex-col items-center
@@ -127,7 +135,7 @@
                 class="text-white font-light text-center px-4 mt-2
                 md:w-3/5
                 lg:text-xl">
-                    Curieux des nouvelles tendances et technologies, mes compétences évoluent quotidiennement avec mes connaissances
+                    Passionné de nouvelles tendances et technologies, j'applique quotidiennement mes découvertes à mon travail
                 </p>
             </div>
 
@@ -138,7 +146,7 @@
                 <CompetencesCard
                 class="xl:mr-8"
                 title="Développement Web"
-                content="Je me suis engagé pleinement dans l'univers du développement web afin de pouvoir penser, créer et développer des sites orientés design, fonctionnabilités et accessibilités." >
+                content="Engagé pleinement dans l'univers du développement web afin de pouvoir je pense, crée et développe des sites orientés design, fonctionnalités et accessibilité." >
                     <img
                     class="object-cover h-64 w-full"
                     src="../assets/img/competences/web-dev.jpg" alt="developpement web">
@@ -154,8 +162,8 @@
                 </CompetencesCard>
 
                 <CompetencesCard
-                title="Ventes & Négociations"
-                content="Fort de nombreuses années d'expériences en ventes et en négociations, j'ai acquis de solides compétences dans ce domaine me permettant d'être rapidement autonome." >
+                title="Vente & Négociation"
+                content="Fort de nombreuses années d'expériences en vente et en négociations, j'ai acquis de solides compétences qui me permettent d'être rapidement autonome." >
                     <img
                     class="object-cover h-64 w-full"
                     src="../assets/img/competences/negociation.jpg" alt="ventes et négociations">
@@ -171,12 +179,6 @@
                 md:text-5xl">
                     MES COMPETENCES TECHNIQUES
                 </h2>
-
-                <p
-                class="text-white font-light text-center px-4 mt-2
-                md:w-3/5">
-                    En tant que Développeur, je suis ammené à travailler avec certains outils et languages sur lesquels j'accroîs mes compétences au quotidien.
-                </p>
             </div>
 
             <div
